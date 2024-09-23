@@ -1,27 +1,32 @@
-@charset "UTF-8";
 body {
   background-color: #f7f7f7;
 }
-
 * {
   margin: 0%;
   padding: 0%;
   box-sizing: border-box;
   flex-wrap: wrap;
 }
-
 html {
   scroll-behavior: smooth;
 }
-
 header {
   height: 25px;
   width: auto;
-  background: #00b09b; /* fallback for old browsers */ /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #96c93d, #00b09b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #00b09b; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #96c93d,
+    #00b09b
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #96c93d,
+    #00b09b
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   /* background-color: #5ab545; */
 }
-
 .wsp {
   transition: all 0.7s;
   height: 70px;
@@ -38,18 +43,17 @@ header {
   box-shadow: 0 0 100px 0px black;
   z-index: 1;
 }
-
 .wsp:hover {
   transition: all 0.2s;
   transform: scale(1.1);
 }
 
 /* PARTE DE BARRA DE NAVEGACION */
+
 .navegacion a:hover {
   transition: all 0.9s;
   color: black;
 }
-
 .navegacion a {
   transition: all 0.7s;
   text-decoration: none;
@@ -66,8 +70,18 @@ header {
   font-size: 22px;
   padding-top: 30px;
   padding-right: 60px;
-  background: #e0eafc; /* fallback for old browsers */ /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #cfdef3, #e0eafc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #e0eafc; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #cfdef3,
+    #e0eafc
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #cfdef3,
+    #e0eafc
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   /* background-color: #f7f7f7; */
   height: 80px;
   width: auto;
@@ -80,12 +94,12 @@ header {
 }
 
 /* PARTE DEL INICIO */
+
 .mani {
   height: 959px;
   width: 100%;
   background-color: white;
 }
-
 #m1 {
   font-family: "Kanit", sans-serif;
   font-weight: 500;
@@ -96,13 +110,11 @@ header {
   padding-top: 300px;
   padding-left: 198px;
 }
-
 .m3 {
   position: absolute;
   top: 164px;
   right: 60px;
 }
-
 .m2 {
   font-family: "Kanit", sans-serif;
   font-weight: 400;
@@ -113,12 +125,22 @@ header {
 }
 
 /* PARTE DE SOBRE NOSOTROS */
+
 #nosotros {
   height: 600px;
   width: 100%;
   /* background-color: #f7f7f7; */
-  background: #e0eafc; /* fallback for old browsers */ /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #cfdef3, #e0eafc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #e0eafc; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #cfdef3,
+    #e0eafc
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #cfdef3,
+    #e0eafc
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 #n1 {
@@ -130,7 +152,6 @@ header {
   color: #5ab545;
   padding-top: 20px;
 }
-
 .n2 {
   position: absolute;
   top: 1180px;
@@ -145,7 +166,6 @@ header {
   );
   border-radius: 35px; */
 }
-
 #textn1 {
   font-family: "Hind Siliguri", sans-serif;
   font-weight: 650;
@@ -164,12 +184,12 @@ header {
 }
 
 /* PARTE DE SERVICIOS */
+
 #servicios {
   height: 2300px;
   width: 100%;
   background-color: white;
 }
-
 #s1 {
   font-family: "Mukta", sans-serif;
   font-weight: 1000;
@@ -179,7 +199,6 @@ header {
   color: #5ab545;
   padding-top: 80px;
 }
-
 #s2 {
   font-family: "Hind Siliguri", sans-serif;
   font-weight: 1000;
@@ -206,14 +225,12 @@ header {
   border-radius: 35px;
   background-color: #e0e0e0;
 }
-
 #imgMixto1 {
   position: absolute;
   top: 50px;
   left: 50px;
   border-radius: 20px;
 }
-
 #texto1 {
   font-family: "Hind Siliguri", sans-serif;
   font-weight: 650;
@@ -224,7 +241,6 @@ header {
   padding-top: 40px;
   padding-left: 380px;
 }
-
 #texto2 {
   font-family: "Hind Siliguri", sans-serif;
   font-weight: 650;
@@ -235,7 +251,6 @@ header {
   padding-top: 40px;
   padding-left: 420px;
 }
-
 #texto3 {
   font-family: "Hind Siliguri", sans-serif;
   font-weight: 650;
@@ -265,7 +280,6 @@ header {
   right: 50px;
   border-radius: 20px;
 }
-
 #texto4 {
   font-family: "Hind Siliguri", sans-serif;
   font-weight: 650;
@@ -276,7 +290,6 @@ header {
   padding-top: 40px;
   padding-right: 350px;
 }
-
 #texto5 {
   font-family: "Hind Siliguri", sans-serif;
   font-weight: 650;
@@ -287,7 +300,6 @@ header {
   padding-top: 40px;
   padding-left: 50px;
 }
-
 #texto6 {
   font-family: "Hind Siliguri", sans-serif;
   font-weight: 650;
@@ -310,14 +322,12 @@ header {
   border-radius: 35px;
   background-color: #e0e0e0;
 }
-
 #imgPlataforma1 {
   position: absolute;
   top: 50px;
   left: 50px;
   border-radius: 20px;
 }
-
 #texto7 {
   font-family: "Hind Siliguri", sans-serif;
   font-weight: 650;
@@ -328,7 +338,6 @@ header {
   padding-top: 35px;
   padding-left: 300px;
 }
-
 #texto8 {
   font-family: "Hind Siliguri", sans-serif;
   font-weight: 650;
@@ -339,7 +348,6 @@ header {
   padding-top: 20px;
   padding-left: 350px;
 }
-
 #texto9 {
   font-family: "Hind Siliguri", sans-serif;
   font-weight: 650;
@@ -362,14 +370,12 @@ header {
   border-radius: 35px;
   background-color: #e0e0e0;
 }
-
 #imgRobot1 {
   position: absolute;
   top: 50px;
   right: 50px;
   border-radius: 20px;
 }
-
 #texto10 {
   font-family: "Hind Siliguri", sans-serif;
   font-weight: 650;
@@ -380,7 +386,6 @@ header {
   padding-top: 40px;
   padding-left: 140px;
 }
-
 #texto11 {
   font-family: "Hind Siliguri", sans-serif;
   font-weight: 650;
@@ -391,7 +396,6 @@ header {
   padding-top: 20px;
   padding-left: 50px;
 }
-
 #texto12 {
   font-family: "Hind Siliguri", sans-serif;
   font-weight: 650;
@@ -414,14 +418,12 @@ header {
   border-radius: 35px;
   background-color: #e0e0e0;
 }
-
 #imgSpa1 {
   position: absolute;
   top: 50px;
   left: 50px;
   border-radius: 20px;
 }
-
 #texto13 {
   font-family: "Hind Siliguri", sans-serif;
   font-weight: 650;
@@ -432,7 +434,6 @@ header {
   padding-top: 40px;
   padding-left: 300px;
 }
-
 #texto14 {
   font-family: "Hind Siliguri", sans-serif;
   font-weight: 650;
@@ -443,7 +444,6 @@ header {
   padding-top: 40px;
   padding-left: 350px;
 }
-
 #texto15 {
   font-family: "Hind Siliguri", sans-serif;
   font-weight: 650;
@@ -466,14 +466,12 @@ header {
   border-radius: 35px;
   background-color: #e0e0e0;
 }
-
 #imgPijamada1 {
   position: absolute;
   top: 50px;
   right: 50px;
   border-radius: 20px;
 }
-
 #texto16 {
   font-family: "Hind Siliguri", sans-serif;
   font-weight: 650;
@@ -484,7 +482,6 @@ header {
   padding-top: 40px;
   padding-left: 130px;
 }
-
 #texto17 {
   font-family: "Hind Siliguri", sans-serif;
   font-weight: 650;
@@ -495,7 +492,6 @@ header {
   padding-top: 40px;
   padding-left: 50px;
 }
-
 #texto18 {
   font-family: "Hind Siliguri", sans-serif;
   font-weight: 650;
@@ -517,14 +513,12 @@ header {
   border-radius: 35px;
   background-color: #e0e0e0;
 }
-
 #imgMalon1 {
   position: absolute;
   top: 50px;
   left: 50px;
   border-radius: 20px;
 }
-
 #texto19 {
   font-family: "Hind Siliguri", sans-serif;
   font-weight: 650;
@@ -535,7 +529,6 @@ header {
   padding-top: 40px;
   padding-left: 300px;
 }
-
 #texto20 {
   font-family: "Hind Siliguri", sans-serif;
   font-weight: 650;
@@ -546,7 +539,6 @@ header {
   padding-top: 40px;
   padding-left: 350px;
 }
-
 #texto21 {
   font-family: "Hind Siliguri", sans-serif;
   font-weight: 650;
@@ -569,14 +561,12 @@ header {
   border-radius: 35px;
   background-color: #e0e0e0;
 }
-
 #imgAdicionales1 {
   position: absolute;
   top: 50px;
   right: 50px;
   border-radius: 20px;
 }
-
 #texto22 {
   font-family: "Hind Siliguri", sans-serif;
   font-weight: 650;
@@ -587,7 +577,6 @@ header {
   padding-top: 40px;
   padding-left: 160px;
 }
-
 #texto23 {
   font-family: "Hind Siliguri", sans-serif;
   font-weight: 650;
@@ -598,7 +587,6 @@ header {
   padding-top: 40px;
   padding-left: 90px;
 }
-
 #texto24 {
   font-family: "Hind Siliguri", sans-serif;
   font-weight: 650;
@@ -610,6 +598,7 @@ header {
 }
 
 /* CONTACTO */
+
 #contacto {
   height: 700px;
   width: 100%;
@@ -625,7 +614,6 @@ header {
   width: 700px;
   border-radius: 35px;
 }
-
 #nombre,
 #mail,
 #comentario {
@@ -635,11 +623,19 @@ header {
   font-size: 15px;
   text-align: left;
 }
-
 body {
   /* background-color: #f7f7f7; */ /* Color de fondo */
-  background: #e0eafc; /* fallback for old browsers */ /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #cfdef3, #e0eafc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #e0eafc; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #cfdef3,
+    #e0eafc
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #cfdef3,
+    #e0eafc
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 form {
@@ -679,11 +675,9 @@ button {
   border-radius: 5px;
   cursor: pointer;
 }
-
 button:hover {
   transform: scale(1.1);
 }
-
 #c1 {
   font-family: "Mukta", sans-serif;
   font-weight: 1000;
@@ -693,7 +687,6 @@ button:hover {
   color: #5ab545;
   padding-top: 20px;
 }
-
 #campanita2 {
   position: absolute;
   top: 3984px;
@@ -701,19 +694,22 @@ button:hover {
 }
 
 /* FOOTER */
+
 .footer {
   height: 400px;
   width: 100%;
   /* background-color: #033a2e; */
-  background: linear-gradient(114.3deg, rgb(19, 126, 57) 0.2%, rgb(8, 65, 91) 68.5%);
+  background: linear-gradient(
+    114.3deg,
+    rgb(19, 126, 57) 0.2%,
+    rgb(8, 65, 91) 68.5%
+  );
 }
-
 #logo2 {
   position: absolute;
   top: 4720px;
   left: 150px;
 }
-
 .footer a {
   transition: all 0.7s;
   font-family: "Mukta", sans-serif;
@@ -725,19 +721,16 @@ button:hover {
   display: inline-block;
   text-decoration: none;
 }
-
 .footer a:hover {
   transition: all 0.4s;
   color: white;
 }
-
 .footer p {
   font-family: "Mukta", sans-serif;
   font-weight: 600;
   font-style: normal;
   color: white;
 }
-
 #f1 {
   font-size: 25px;
   position: absolute;
@@ -746,7 +739,6 @@ button:hover {
   padding-left: 1005px;
   text-align: left;
 }
-
 #f2 {
   font-size: 25px;
   position: absolute;
@@ -754,4 +746,4 @@ button:hover {
   padding-top: 200px;
   padding-left: 1305px;
   text-align: left;
-}/*# sourceMappingURL=estilos.css.map */
+}
